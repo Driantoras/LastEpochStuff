@@ -96,6 +96,12 @@
           <combinedComparsionValue>2</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RING</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
@@ -118,6 +124,12 @@
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
           <combinedComparsionValue>2</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>GLOVES</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
       <color>3</color>
@@ -143,6 +155,12 @@
           <combinedComparsionValue>2</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BOOTS</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
@@ -166,6 +184,12 @@
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
           <combinedComparsionValue>2</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BELT</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
       <color>3</color>
@@ -191,6 +215,12 @@
           <combinedComparsionValue>2</combinedComparsionValue>
           <advanced>true</advanced>
         </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>BODY_ARMOR</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
       </conditions>
       <color>3</color>
       <isEnabled>true</isEnabled>
@@ -214,6 +244,12 @@
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
           <combinedComparsionValue>2</combinedComparsionValue>
           <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>HELMET</EquipmentType>
+          </type>
+          <subTypes />
         </Condition>
       </conditions>
       <color>3</color>
