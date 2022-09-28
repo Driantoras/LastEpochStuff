@@ -86,6 +86,58 @@
       <conditions>
         <Condition i:type="AffixCondition">
           <affixes>
+            <int>36</int>
+          </affixes>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>0</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+          <advanced>false</advanced>
+        </Condition>
+      </conditions>
+      <color>7</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>Special affixes</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>429</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>2</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>RELIC</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>good Relic</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
             <int>92</int>
             <int>97</int>
           </affixes>
@@ -110,6 +162,35 @@
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
       <nameOverride>good rings</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>86</int>
+          </affixes>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>2</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type>
+            <EquipmentType>AMULET</EquipmentType>
+          </type>
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>good Amulet</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
@@ -147,6 +228,7 @@
           <affixes>
             <int>36</int>
             <int>505</int>
+            <int>28</int>
           </affixes>
           <comparsion>MORE_OR_EQUAL</comparsion>
           <comparsionValue>1</comparsionValue>
@@ -264,24 +346,51 @@
       <type>HIGHLIGHT</type>
       <conditions>
         <Condition i:type="AffixCondition">
-          <affixes>
-            <int>36</int>
-          </affixes>
-          <comparsion>ANY</comparsion>
-          <comparsionValue>0</comparsionValue>
-          <minOnTheSameItem>1</minOnTheSameItem>
-          <combinedComparsion>ANY</combinedComparsion>
-          <combinedComparsionValue>1</combinedComparsionValue>
-          <advanced>false</advanced>
+          <affixes />
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>0</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>2</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type />
+          <subTypes />
         </Condition>
       </conditions>
-      <color>7</color>
+      <color>3</color>
       <isEnabled>true</isEnabled>
       <levelDependent>false</levelDependent>
       <minLvl>0</minLvl>
       <maxLvl>0</maxLvl>
       <emphasized>false</emphasized>
-      <nameOverride>Special affixes</nameOverride>
+      <nameOverride>good Off-Hand</nameOverride>
+    </Rule>
+    <Rule>
+      <type>HIGHLIGHT</type>
+      <conditions>
+        <Condition i:type="AffixCondition">
+          <affixes />
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>1</comparsionValue>
+          <minOnTheSameItem>0</minOnTheSameItem>
+          <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
+          <combinedComparsionValue>2</combinedComparsionValue>
+          <advanced>true</advanced>
+        </Condition>
+        <Condition i:type="SubTypeCondition">
+          <type />
+          <subTypes />
+        </Condition>
+      </conditions>
+      <color>3</color>
+      <isEnabled>true</isEnabled>
+      <levelDependent>false</levelDependent>
+      <minLvl>0</minLvl>
+      <maxLvl>0</maxLvl>
+      <emphasized>false</emphasized>
+      <nameOverride>good Weapon</nameOverride>
     </Rule>
     <Rule>
       <type>HIGHLIGHT</type>
